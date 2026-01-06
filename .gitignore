@@ -1,5 +1,6 @@
 data/
 artifacts/
+artifact/
 
 venv/
 .venv/
