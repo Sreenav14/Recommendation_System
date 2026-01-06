@@ -12,7 +12,7 @@ INDEX_PATH = os.path.join(FAISS_DIR, "index.faiss")
 MOVIE_IDS_PATH = os.path.join(FAISS_DIR, "movie_ids.json")
 MOVIES_META_PATH = "../data/processed/movies_clean.parquet"
 
-TOP_K = 10
+TOP_K = 200
 
 def main():
     # load user model

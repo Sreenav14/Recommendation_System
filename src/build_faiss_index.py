@@ -3,8 +3,8 @@ import numpy as np
 import faiss
 import json
 
-EMB_DIR = "../artifact/tfrs_retrival_model_hardneg/faiss"
-INDEX_DIR = "../artifact/tfrs_retrival_model_hardneg/faiss"
+EMB_DIR = "../artifact/tfrs_retrival_model_history/faiss"
+INDEX_DIR = "../artifact/tfrs_retrival_model_history/faiss"
 os.makedirs(INDEX_DIR, exist_ok=True)
 
 def main():
